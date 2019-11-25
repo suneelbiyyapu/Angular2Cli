@@ -20,3 +20,8 @@ ng lint --type-check
 To provide auto fix for some of the lint errors, use below command
 ------------------------------------------------------------------
 ng lint --fix
+
+
+Enable Visual Studio Code to display lint errors
+------------------------------------------------------------------
+install "TSLint" extension in Visual Studio Code.
