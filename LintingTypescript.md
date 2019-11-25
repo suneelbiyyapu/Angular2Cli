@@ -7,3 +7,7 @@ Linting checks for
 To lint code using Angular CLI, use below command
 ==================================================
 ng lint
+
+To type check using Lint
+==============================
+ng lint --type-check
