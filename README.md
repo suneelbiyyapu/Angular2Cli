@@ -158,3 +158,31 @@ Guard
 	Create and register Guard
 	==========================================
 		ng g g {guard-name} -m=app.module
+		
+
+Type script 
+=============================
+
+	To create class
+	=============================
+		ng generate class {class-Name}
+
+		(or)
+
+		ng g cl {class-Name}
+
+	To create Interface
+	=============================
+		ng generate interface {interface-Name}
+
+		(or)
+
+		ng g i {interface-Name}
+
+	To create Enum
+	=============================
+		ng generate enum {enum-Name}
+
+		(or)
+
+		ng g e {enum-Name}
