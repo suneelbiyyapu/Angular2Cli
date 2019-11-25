@@ -5,7 +5,9 @@ Leverages Angular CLI commands
 To install Angular CLI
 =====================================
 npm install -g @angular/cli
+
 	(or)
+	
 npm i -g @angular/cli
 
 To check Angular CLI version
