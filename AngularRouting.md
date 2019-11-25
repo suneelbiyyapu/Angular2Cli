@@ -9,3 +9,8 @@ step 3: Configure the application routes
 step 4: Specify where you want the routed component view template to be displayed using the <**router-outlet**> directive.
 
 step 5: Create a navigation menu and tie the configured routes with menu using the **routerLink** directive
+
+
+Generate Routing Module by Angular CLI
+---------------------------------------
+ng new RoutingSample --routing
