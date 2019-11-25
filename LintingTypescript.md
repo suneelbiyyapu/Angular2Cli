@@ -15,3 +15,8 @@ ng lint
 To type check using Lint
 ==============================
 ng lint --type-check
+
+
+To provide auto fix for linting errors, use below
+--------------------------------------------------
+ng lint --fix
