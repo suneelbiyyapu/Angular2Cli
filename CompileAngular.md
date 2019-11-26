@@ -20,4 +20,7 @@ As you can see in the "dist" folder we have
 Please note : Both the following commands are equivalent and does the same thing, i.e they produce a development build
 **ng build** or **ng build --dev**
 
+If you want to produce a Production build, use below command.
+**ng build --prod**
+
 If you want to deploy the application to a server, copy the contents of the "dist" folder to a folder on the server.
