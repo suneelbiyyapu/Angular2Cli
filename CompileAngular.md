@@ -41,3 +41,16 @@ ng build
 1. Compiles the application to the "dist" folder
 2. Can be used to produce both development & production builds
 3. Typically used to deploy the application on another server
+
+Some additional commands
+--------------------------------------
+source maps
+-----------------
+ng build --dev -sm false (enable by default for dev environment)
+
+ng build --prod -sm true (disable by default for dev environment)
+
+Extract css
+-----------------
+ng build --dev -ec true (by default it is false for dev)
+
