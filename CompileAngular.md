@@ -25,3 +25,19 @@ If you want to produce a Production build, use below command.
 **ng build --prod**
 
 If you want to deploy the application to a server, copy the contents of the "dist" folder to a folder on the server.
+
+ng serve vs ng build
+-------------------------------------------
+
+ng serve
+---------------
+Compiles and serves the application from memory
+Does not write the build files to the disk
+Typically used to run the application on local development machine
+Cannot be used for deploying the build to another server (Ex. Testing, Staging or Production server)
+
+ng build
+---------------
+Compiles the application to the "dist" folder
+Can be used to produce both development & production builds
+Typically used to deploy the application on another server
