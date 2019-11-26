@@ -31,13 +31,13 @@ ng serve vs ng build
 
 ng serve
 ---------------
-Compiles and serves the application from memory
-Does not write the build files to the disk
-Typically used to run the application on local development machine
+1. Compiles and serves the application from memory
+2. Does not write the build files to the disk
+3. Typically used to run the application on local development machine
 Cannot be used for deploying the build to another server (Ex. Testing, Staging or Production server)
 
 ng build
 ---------------
-Compiles the application to the "dist" folder
-Can be used to produce both development & production builds
-Typically used to deploy the application on another server
+1. Compiles the application to the "dist" folder
+2. Can be used to produce both development & production builds
+3. Typically used to deploy the application on another server
